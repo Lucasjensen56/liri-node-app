@@ -1,16 +1,34 @@
 require("dotenv").config();
-
-var Twitter = require('twitter');
-
 var fs = require('fs');
 
-
 var keys = require('./keys.js');
+
+var twitter = require('twitter');
+var client = new twitter(keys.twitter);
+
+
+
+
 
 var liriCommanLine = (process.argv[2]);
 
 
-console.log(process.argv)
+function displayTweets () {
+
+  var screenName = {screen_name: 'jensen_lucas'};
+
+  client.get('statuses/user_timeline', screenName, function(error, tweets, response) {
+      if(error) throw error;
+      console.log(tweets);  // The favorites. 
+      console.log(response);  // Raw response object. 
+    });
+
+
+  fs.appendFile('twitterLog.txt', )
+
+}
+
+displayTweets()
 
 
 
@@ -21,11 +39,6 @@ console.log(process.argv)
 // client.get(path, params, callback);
 
 
-// client.get('favorites/list', function(error, tweets, response) {
-//   if(error) throw error;
-//   console.log(tweets);  // The favorites. 
-//   console.log(response);  // Raw response object. 
-// });
 
 
 // // 
