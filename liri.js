@@ -25,17 +25,18 @@ function displayTweets () {
         console.log("@jensen_lucas: " + tweets[i].text + "created: " + tweets[i].created_at.substring(0,19));
         console.log("-------------------------")
 
-    }
-
+        fs.appendFile('twitterLog.txt', '@jensen_lucas: ' + tweets[i].text + 'created: ' + tweets[i].created_at.substring(0,19), function(error) {
+          if (error) {
+            return console.log(error)
+          }
+        });
+        fs.appendFile('twitterLog.txt', '---------------------------' + "\n")
+      }
 
     });
-
     
-
-
-  fs.appendFile('twitterLog.txt', )
-
-}
+   
+};
 
 displayTweets()
 
