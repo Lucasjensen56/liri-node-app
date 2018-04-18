@@ -11,15 +11,11 @@ var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var song = (process.argv[3]);
 
-
 var request = require('request');
 
 
 
 var liriCommanLine = (process.argv[2]);
-
-
-
 
 
 // function to display tweets
@@ -29,17 +25,16 @@ function displayTweets () {
 
   client.get('statuses/user_timeline', screenName, function(error, tweets, response) {
       if(error) throw error;
-      // console.log(tweets);  // The favorites. 
       for (i = 0; i < tweets.length; i++) {
         console.log("@jensen_lucas: " + tweets[i].text + "created: " + tweets[i].created_at.substring(0,19));
         console.log("-------------------------")
 
-        fs.appendFile('searchLog.txt', '@jensen_lucas: ' + tweets[i].text + 'created: ' + tweets[i].created_at.substring(0,19), function(error) {
+        fs.appendFile('searchLog.txt', '@jensen_lucas: ' + tweets[i].text + 'created: ' + tweets[i].created_at.substring(0,19) + '\n', function(error) {
           if (error) {
             return console.log(error)
           }
         });
-        fs.appendFile('searchLog.txt', '---------------------------' + "\n")
+        fs.appendFile('searchLog.txt', '--------------------------------------------' + '\n')
       }
 
     });
@@ -50,25 +45,12 @@ function displayTweets () {
 
 function searchSpotify(song1) {
 
-  // var song = (process.argv[3] + " " + process.argv[4]);
-
-  
-
-
-  // var song = process.argv;
-
-  // console.log(song)
-  
-
   spotify.search({ type: 'track', query: song1 }, function(err, data) {
     if (err) {
       return console.log('Error occurred: ' + err);
     } else {
 
-        // var songData = (JSON.stringify(data, null, 2));
-        // var songData = (JSON.stringify(data.tracks.items, null, 2));
         var songDataAPi = data.tracks.items;
-
 
         for (i = 0; i < songDataAPi.length; i++) {
 
@@ -105,66 +87,47 @@ function showMovie() {
 
   var movie = (process.argv[3] + " " + process.argv[4]);
 
-  // console.log(movie)
+  request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(error, response, body) {
 
-// var movieName = ""
+    // If the request is successful (i.e. if the response status code is 200)
+    if (!error && response.statusCode === 200) {
+      var movieData = (JSON.parse(body))
 
-// for (var i = 3; i < movie.length; i++) {
+      // console.log(movieData)
 
-//   if (i > 3 && i < movie.length) {
+      console.log('Movie Title: ' + movieData.Title + '\n' +
+                  'Release Date: ' + movieData.Year + '\n' +
+                  'imdbRating: ' + movieData.imdbRating + '\n' +
+                  'Rotten Tomatoes Rating: ' + movieData.Ratings[1].Value + '\n' +
+                  'Country where movie was filmed: ' + movieData.Country + '\n' +
+                  'Language: ' + movieData.Language + '\n' +
+                  'Plot: ' + movieData.Plot + '\n' + 
+                  'Actors: ' + movieData.Actors + '\n')
 
-//     movieName = movieName + "+" + movie[i];
+      fs.appendFile('searchLog.txt', 
+          
+        'Movie Title: ' + movieData.Title + '\n' +
+        'Release Date: ' + movieData.Year + '\n' +
+        'imdbRating: ' + movieData.imdbRating + '\n' +
+        'Rotten Tomatoes Rating: ' + movieData.Ratings[1].Value + '\n' +
+        'Country where movie was filmed: ' + movieData.Country + '\n' +
+        'Language: ' + movieData.Language + '\n' +
+        'Plot: ' + movieData.Plot + '\n' + 
+        'Actors: ' + movieData.Actors + '\n' +
+        "----------------------------------------------------------" + '\n', 
+        function(error) {
 
-//   }
+        });
 
-//   else {
+    } else if (error) {
+      return console.log(error)
+    } else if (movie === null) {
+      movie = "Mr. Nobody";
 
-//     movieName += movie[i];
-
-//   }
-// }
-
-request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(error, response, body) {
-
-  // If the request is successful (i.e. if the response status code is 200)
-  if (!error && response.statusCode === 200) {
-    var movieData = (JSON.parse(body))
-
-    // console.log(movieData)
-
-    console.log('Movie Title: ' + movieData.Title + '\n' +
-                'Release Date: ' + movieData.Year + '\n' +
-                'imdbRating: ' + movieData.imdbRating + '\n' +
-                'Rotten Tomatoes Rating: ' + movieData.Ratings[1].Value + '\n' +
-                'Country where movie was filmed: ' + movieData.Country + '\n' +
-                'Language: ' + movieData.Language + '\n' +
-                'Plot: ' + movieData.Plot + '\n' + 
-                'Actors: ' + movieData.Actors + '\n')
-
-    fs.appendFile('searchLog.txt', 
-        
-      'Movie Title: ' + movieData.Title + '\n' +
-      'Release Date: ' + movieData.Year + '\n' +
-      'imdbRating: ' + movieData.imdbRating + '\n' +
-      'Rotten Tomatoes Rating: ' + movieData.Ratings[1].Value + '\n' +
-      'Country where movie was filmed: ' + movieData.Country + '\n' +
-      'Language: ' + movieData.Language + '\n' +
-      'Plot: ' + movieData.Plot + '\n' + 
-      'Actors: ' + movieData.Actors + '\n' +
-      "----------------------------------------------------------" + '\n', 
-      function(error) {
-
-      });
-
-  } else if (error) {
-    return console.log(error)
-  } else if (movie === null) {
-    movie = "Mr. Nobody";
-
-  };
+    };
 
 
-});
+  });
 
 };
 
@@ -208,9 +171,9 @@ switch(liriCommanLine) {
     doWhatItSays();
   break
 
-  // default:
-  //   console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
-  //   break;
+  default:
+    console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
+    break;
 };
 
 
