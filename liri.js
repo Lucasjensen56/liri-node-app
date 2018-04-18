@@ -81,23 +81,26 @@ function searchSpotify() {
 
           var songData = (data.tracks.items[i]);
 
-
           console.log('Artist: ' + songData.artists[0].name + "\n" +
             'Song: ' + songData.name + "\n" +
             'Preview Link: ' + songData.preview_url + "\n" +
-            'Album ' + songData.album.name +
-          "\n" + "------------");
-          
-          
+            'Album: ' + songData.album.name + "\n" + 
+            "----------------------");
+                
+        fs.appendFile('searchLog.txt', 
         
-          // console.log(songData[i].artists[0].name); 
-        
-        
-        // fs.appendFile('searchLog.txt', songData[i].artists[0].name, function(error) {
-        //   if (error) {
-        //     return console.log(error)
-        //   }
-        // });
+        'Artist: ' + songData.artists[0].name + "\n" +
+        'Song: ' + songData.name + "\n" +
+        'Preview Link: ' + songData.preview_url + "\n" +
+        'Album: ' + songData.album.name + "\n" + 
+        "--------------------------------------------------------" + "\n", 
+        function(error) {
+
+          if (error) {
+            return console.log(error)
+          } 
+
+        });
         
         };
     }
