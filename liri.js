@@ -144,7 +144,10 @@ request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", 
     console.log('Movie Title: ' + movieData.Title + '\n' +
                 'Release Date: ' + movieData.Year + '\n' +
                 'imdbRating: ' + movieData.imdbRating + '\n' +
-                'Rotten Tomatoes Rating: ' + movieData.Ratings[JSON.parse(1)] + '\n' +
+                'Rotten Tomatoes Rating: ' + movieData.Ratings[1].Value + '\n' +
+                    
+//                 'Rotten Tomatoes Rating: ' + response.Ratings[1].Value + '\n' +
+
                 'Language: ' + movieData.Language + '\n' +
                 'Plot ' + movieData.Plot + '\n' + 
                 'Actors ' + movieData.Actors + '\n')
