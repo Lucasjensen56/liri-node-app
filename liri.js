@@ -40,7 +40,6 @@ function displayTweets () {
   client.get('statuses/user_timeline', screenName, function(error, tweets, response) {
       if(error) throw error;
       // console.log(tweets);  // The favorites. 
-      // console.log(response);  // Raw response object. 
       for (i = 0; i < tweets.length; i++) {
         console.log("@jensen_lucas: " + tweets[i].text + "created: " + tweets[i].created_at.substring(0,19));
         console.log("-------------------------")
@@ -61,7 +60,10 @@ function displayTweets () {
 
 function searchSpotify() {
 
+  // var song = (process.argv[3] + " " + process.argv[4]);
+
   var song = (process.argv[3]);
+
 
   // var song = process.argv;
 
@@ -77,25 +79,24 @@ function searchSpotify() {
         // var songData = (JSON.stringify(data.tracks.items, null, 2));
         var songDataAPi = data.tracks.items;
 
-        // console.log(songDataAPi)
 
         for (i = 0; i < songDataAPi.length; i++) {
 
-          var songData = (data.tracks.items[i]);
+            var songData = (data.tracks.items[i]);
 
-          console.log('Artist: ' + songData.artists[0].name + "\n" +
-            'Song: ' + songData.name + "\n" +
-            'Preview Link: ' + songData.preview_url + "\n" +
-            'Album: ' + songData.album.name + "\n" + 
-            "----------------------");
-                
-        fs.appendFile('searchLog.txt', 
-        
-        'Artist: ' + songData.artists[0].name + "\n" +
-        'Song: ' + songData.name + "\n" +
-        'Preview Link: ' + songData.preview_url + "\n" +
-        'Album: ' + songData.album.name + "\n" + 
-        "--------------------------------------------------------" + "\n", 
+            console.log('Artist: ' + songData.artists[0].name + "\n" +
+              'Song: ' + songData.name + "\n" +
+              'Preview Link: ' + songData.preview_url + "\n" +
+              'Album: ' + songData.album.name + "\n" + 
+              "----------------------");
+                  
+          fs.appendFile('searchLog.txt', 
+          
+          'Artist: ' + songData.artists[0].name + "\n" +
+          'Song: ' + songData.name + "\n" +
+          'Preview Link: ' + songData.preview_url + "\n" +
+          'Album: ' + songData.album.name + "\n" + 
+          "--------------------------------------------------------" + "\n", 
         function(error) {
 
           if (error) {
@@ -139,23 +140,66 @@ request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", 
   if (!error && response.statusCode === 200) {
     var movieData = (JSON.parse(body))
 
-    console.log(movieData)
+    // console.log(movieData)
 
     console.log('Movie Title: ' + movieData.Title + '\n' +
                 'Release Date: ' + movieData.Year + '\n' +
                 'imdbRating: ' + movieData.imdbRating + '\n' +
                 'Rotten Tomatoes Rating: ' + movieData.Ratings[1].Value + '\n' +
-                    
-//                 'Rotten Tomatoes Rating: ' + response.Ratings[1].Value + '\n' +
-
+                'Country where movie was filmed: ' + movieData.Country + '\n' +
                 'Language: ' + movieData.Language + '\n' +
-                'Plot ' + movieData.Plot + '\n' + 
-                'Actors ' + movieData.Actors + '\n')
-  }
+                'Plot: ' + movieData.Plot + '\n' + 
+                'Actors: ' + movieData.Actors + '\n')
+
+    fs.appendFile('searchLog.txt', 
+        
+      'Movie Title: ' + movieData.Title + '\n' +
+      'Release Date: ' + movieData.Year + '\n' +
+      'imdbRating: ' + movieData.imdbRating + '\n' +
+      'Rotten Tomatoes Rating: ' + movieData.Ratings[1].Value + '\n' +
+      'Country where movie was filmed: ' + movieData.Country + '\n' +
+      'Language: ' + movieData.Language + '\n' +
+      'Plot: ' + movieData.Plot + '\n' + 
+      'Actors: ' + movieData.Actors + '\n' +
+      "----------------------------------------------------------" + '\n', 
+      function(error) {
+
+      });
+
+  } else if (error) {
+    return console.log(error)
+  } else if (movie === null) {
+    movie = "Mr. Nobody";
+
+  };
+
+
 });
 
-
 };
+
+function doWhatItSays () {
+
+  fs.readFile("random.txt", "utf8", function(err, data){
+    if (err) {
+      return console.log(err);
+    } else {
+      
+      var searchWord = data.split(',')
+
+      console.log(searchWord[1])
+
+      searchSpotify(searchWord[1])
+
+    }
+
+
+  });
+
+
+}
+
+
 
 
 
@@ -169,12 +213,14 @@ switch(liriCommanLine) {
   break;
   case"movie-this":
     showMovie();
-  break;
- 
+  break;  
+  case"do-what-it-says":
+    doWhatItSays();
+  break
 
-
-
-
+  default:
+    console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
+    break;
 };
 
 

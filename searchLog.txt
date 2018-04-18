@@ -1,120 +1,236 @@
-Artist: grandson
-Song: Bury Me Face Down
-Preview Link: https://p.scdn.co/mp3-preview/a10e7665aa8cdc1014e3922c98d68ba87ee117f0?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Bury Me Face Down
---------------------------------------------------------
-Artist: Getter
-Song: Bury Me
-Preview Link: https://p.scdn.co/mp3-preview/8d827017b20366bf1374585258855f3e626ba5fd?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Bury Me
---------------------------------------------------------
-Artist: Riley Green
-Song: Bury Me in Dixie
-Preview Link: https://p.scdn.co/mp3-preview/2ca9bfddbafa968b841948143992b748cc8ac80a?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Bury Me in Dixie
---------------------------------------------------------
-Artist: Like Moths To Flames
-Song: Bury Your Pain
-Preview Link: https://p.scdn.co/mp3-preview/f535a6137e599c7bb2f66571d61583de6b62804f?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: The Dream Is Dead
---------------------------------------------------------
-Artist: Mitski
-Song: First Love / Late Spring
-Preview Link: https://p.scdn.co/mp3-preview/fceead5d78cb547d2eca615da8596e63d35da418?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Bury Me At Makeout Creek
---------------------------------------------------------
-Artist: Bobaflex
-Song: Bury Me With My Guns
-Preview Link: https://p.scdn.co/mp3-preview/60d21ab21d43b683f23feb3c49140297a6ef431c?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Hell In My Heart
---------------------------------------------------------
-Artist: CHVRCHES
-Song: Bury It
+Movie Title: Harry Potter and the Deathly Hallows: Part 2
+Release Date: 2011
+imdbRating: 8.1
+Rotten Tomatoes Rating: 96%
+Country where movie was filmed: USA, UK
+Language: English
+Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.
+Actors: Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe
+----------------------------------------------------------
+Movie Title: Harry Potter and the Deathly Hallows: Part 2
+Release Date: 2011
+imdbRating: 8.1
+Rotten Tomatoes Rating: 96%
+Country where movie was filmed: USA, UK
+Language: English
+Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.
+Actors: Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe
+----------------------------------------------------------
+Artist: AURORA
+Song: Queendom
 Preview Link: null
-Album: Every Open Eye (Extended Edition)
+Album: Queendom
 --------------------------------------------------------
-Artist: The Cadillac Three
-Song: The South
+Artist: Vinida
+Song: Queendom
+Preview Link: https://p.scdn.co/mp3-preview/701a9f6cb16925cfe23063ceb343aa327d7b7e06?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: WWE
+Song: Welcome to the Queendom (Stephanie McMahon)
+Preview Link: https://p.scdn.co/mp3-preview/3f1d684468373bdbace139cfbb2dab534eb91483?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Welcome to the Queendom (Stephanie McMahon)
+--------------------------------------------------------
+Artist: Vinida
+Song: Queendom
+Preview Link: https://p.scdn.co/mp3-preview/982c1e93195c1743dc7b6cb7fb30b47bb4a2f0d0?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: 萬妮達
+--------------------------------------------------------
+Artist: Peter Tosh
+Song: Babylon Queendom - Outtake
+Preview Link: https://p.scdn.co/mp3-preview/c5da55a18df7e8de68fbc30f1d0f54dddca4bed8?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Equal Rights (Legacy Edition)
+--------------------------------------------------------
+Artist: Queendom
+Song: Queendom
+Preview Link: https://p.scdn.co/mp3-preview/34441bb39e00cd8c0f96c3d5ed57d06f4869add8?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Deztini Farinas
+Song: Little Finger In The Booty Ass Bitch
+Preview Link: https://p.scdn.co/mp3-preview/25c94ce8a92e0f665fff2b4ffc41102817e33511?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Confessions From The Queendom Vol. 1
+--------------------------------------------------------
+Artist: Apani B Fly
+Song: Right the Wrongs
+Preview Link: https://p.scdn.co/mp3-preview/6abf5f955813b563892e08eb0ac2f21af76f1520?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Deztini Farinas
+Song: Hatin' Ass Bitch
+Preview Link: https://p.scdn.co/mp3-preview/283ab74aa5962c20d3a5f56bdf89dbd35b19e9d3?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Confessions From The Queendom Vol. 1
+--------------------------------------------------------
+Artist: Rennata
+Song: Queendom
+Preview Link: https://p.scdn.co/mp3-preview/7178c9f16343895512290853d9d2aaaa526e8642?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: BeNita AppleBomB
+Song: QueenDom
+Preview Link: https://p.scdn.co/mp3-preview/e8693e5caf6f0337e37471a681f4ab830f8f5d51?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: QueenDom
+--------------------------------------------------------
+Artist: Zatii
+Song: Queendom
+Preview Link: https://p.scdn.co/mp3-preview/b7195c764be8350cb3a936fc028018215832367e?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: B.et.a and the Neon Panthers
+Song: Queendom
+Preview Link: https://p.scdn.co/mp3-preview/2bbd9b29f9c0d778f8d148ec2d89aa32210d5754?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Ester Fox
+Song: Queendom
+Preview Link: https://p.scdn.co/mp3-preview/caf6d3b2a543dccbf3a48efa8ee5abf9a391724a?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Queendom
+Song: Anthem to the Sun
+Preview Link: https://p.scdn.co/mp3-preview/4e01169e7994b0ae7242d0089262d6fa805613c2?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Queendom
+Song: Freeway
+Preview Link: https://p.scdn.co/mp3-preview/7b310427fb510b0a6fefa79c207b2afd2a6989fb?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Queendom
+Song: No One Remembers
+Preview Link: https://p.scdn.co/mp3-preview/4ed9441b660e309a6aae3e6734c9daf1f2a031bc?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Queendom
+Song: Magic of the Night
+Preview Link: https://p.scdn.co/mp3-preview/9d2da8aec7879a30c8883d800a520bbe8e322c6c?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Queendom
+Song: Brave New Day
+Preview Link: https://p.scdn.co/mp3-preview/7190924181ae8095bd9145a84254fb7452a1994e?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Queendom
+Song: Heaven & Hell
+Preview Link: https://p.scdn.co/mp3-preview/70bf4c528adf7206edb9c6bf4c8fb6ce4b7a3513?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Queendom
+--------------------------------------------------------
+Artist: Post Malone
+Song: I Fall Apart
 Preview Link: null
-Album: Bury Me In My Boots
+Album: Stoney (Deluxe)
 --------------------------------------------------------
-Artist: Breaking Benjamin
-Song: Bury Me Alive
+Artist: Cardi B
+Song: I Like It
+Preview Link: https://p.scdn.co/mp3-preview/0f8734f51bb0a419959fdad3a0852621f9e6bc89?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Invasion of Privacy
+--------------------------------------------------------
+Artist: David Guetta
+Song: Like I Do
+Preview Link: https://p.scdn.co/mp3-preview/6c6d08d072afd9e943988190a29a484055376fd0?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Like I Do
+--------------------------------------------------------
+Artist: Migos
+Song: Walk It Talk It
 Preview Link: null
-Album: Dark Before Dawn
+Album: Culture II
 --------------------------------------------------------
-Artist: The Cadillac Three
-Song: White Lightning
+Artist: Cardi B
+Song: I Do (feat. SZA)
+Preview Link: https://p.scdn.co/mp3-preview/ffb402c3968a55838f580f8042fbb4e5d7c3c8ac?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Invasion of Privacy
+--------------------------------------------------------
+Artist: Lauv
+Song: I Like Me Better
+Preview Link: https://p.scdn.co/mp3-preview/fa069a3be2d69aab5378b55f6c66d8b3eff1a6d3?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: I Like Me Better
+--------------------------------------------------------
+Artist: The Weeknd
+Song: I Was Never There
 Preview Link: null
-Album: Bury Me In My Boots
+Album: My Dear Melancholy,
 --------------------------------------------------------
-Artist: Mitski
-Song: Francis Forever
-Preview Link: https://p.scdn.co/mp3-preview/0a74106a876bf4e64a931679f37e5f04da265d3f?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Bury Me At Makeout Creek
+Artist: Clean Bandit
+Song: I Miss You (feat. Julia Michaels)
+Preview Link: https://p.scdn.co/mp3-preview/eb8bc30e42a61bda7052025bfc4f62f0a3fdcd89?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: I Miss You (feat. Julia Michaels)
 --------------------------------------------------------
-Artist: The Cadillac Three
-Song: Drunk Like You
+Artist: Gucci Mane
+Song: I Get The Bag (feat. Migos)
+Preview Link: https://p.scdn.co/mp3-preview/8ae1a1c5ce2421df896e27cbf238da4597df39d9?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Mr. Davis
+--------------------------------------------------------
+Artist: Big Sean
+Song: Bounce Back
 Preview Link: null
-Album: Bury Me In My Boots
+Album: I Decided.
 --------------------------------------------------------
-Artist: Throw The Fight
-Song: Bury Me Alive
-Preview Link: https://p.scdn.co/mp3-preview/69644c6510ec7f373f079d4255c7eed787349766?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Transmissions
+Artist: Cardi B
+Song: I Like It
+Preview Link: https://p.scdn.co/mp3-preview/3bc3bd44e49c699cfc8809ca2641c9a2b8228932?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Invasion of Privacy
 --------------------------------------------------------
-Artist: Thug Life
-Song: Bury Me A G
+Artist: G-Eazy
+Song: Him & I (with Halsey)
+Preview Link: https://p.scdn.co/mp3-preview/ed7a2ff3c91a5a1b48a6b270debe123e076ac82d?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: The Beautiful & Damned
+--------------------------------------------------------
+Artist: NOTD
+Song: I Wanna Know (feat. Bea Miller)
 Preview Link: null
-Album: Thug Life: Volume 1
+Album: I Wanna Know (feat. Bea Miller)
 --------------------------------------------------------
-Artist: Big K.R.I.T.
-Song: Bury Me In Gold
-Preview Link: https://p.scdn.co/mp3-preview/d178a054d0fb10c0efdae0d25d111aa400985244?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: 4eva Is A Mighty Long Time
+Artist: Yo Gotti
+Song: Rake It Up
+Preview Link: https://p.scdn.co/mp3-preview/38cc2e650376ae1a606ce952ad21a44dc73d8674?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: I Still Am
 --------------------------------------------------------
-Artist: The Cadillac Three
-Song: Bury Me In My Boots
+Artist: KYLE
+Song: iSpy (feat. Lil Yachty)
+Preview Link: https://p.scdn.co/mp3-preview/c4f8b370f963c3fd8f7b6e4064b177711bb7daf7?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: iSpy (feat. Lil Yachty)
+--------------------------------------------------------
+Artist: XXXTENTACION
+Song: the remedy for a broken heart (why am I so in love)
 Preview Link: null
-Album: Bury Me In My Boots
+Album: ?
 --------------------------------------------------------
-Artist: Jdam
-Song: Bury My Love
-Preview Link: https://p.scdn.co/mp3-preview/c0aefe71efb935e23e8611049e872f57de385691?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Bury My Love
---------------------------------------------------------
-Artist: Modest Mouse
-Song: Bury Me With It
-Preview Link: https://p.scdn.co/mp3-preview/37bad5cf3ade7b9f68e5dec9f6d291aa83537e1b?cid=5a0b5f01e9634134b80c7538eeaa3811
-Album: Good News For People Who Love Bad News
---------------------------------------------------------
-Artist: Breathe Carolina
-Song: Bury Me
+Artist: Tory Lanez
+Song: I Sip
 Preview Link: null
-Album: Savages
+Album: I Sip
 --------------------------------------------------------
-Artist: Saosin
-Song: Bury Your Head
+Artist: Cardi B
+Song: I Do (feat. SZA)
+Preview Link: https://p.scdn.co/mp3-preview/6be3a1c3679b38f81298a76c76951f2902688868?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: Invasion of Privacy
+--------------------------------------------------------
+Artist: Carnage
+Song: i Shyne
+Preview Link: https://p.scdn.co/mp3-preview/f28520352ed6fd75cb527acefde240c1a249e5f2?cid=5a0b5f01e9634134b80c7538eeaa3811
+Album: i Shyne
+--------------------------------------------------------
+Artist: Jorja Smith
+Song: I Am
 Preview Link: null
-Album: Saosin
+Album: Black Panther The Album Music From And Inspired By
 --------------------------------------------------------
-@jensen_lucas: RT @23andMe: RT to celebrate #DNADay17 w/ #23andMe! You could win one of 23 free kits for 23 hours! #sweepstakes (no purch. nec.) https://t…created: Tue Apr 25 15:15:50---------------------------
-@jensen_lucas: RT @23andMe: Retweet &amp; spread some DNA love for #DNADay17 with #23andMe. You could win a free kit! #sweepstakes (no purch. nec.) https://t.…created: Tue Apr 25 15:15:32---------------------------
-@jensen_lucas: RT @TheHerbivorousB: Thank you! For now, please help spread the word about @HerbivorousAcre. 💚 You can sign up for updates at https://t.co/…created: Mon Jan 23 18:54:35---------------------------
-@jensen_lucas: @myvessyl can I please receive help with my vessyl? I have emailed support but no answer. It hasn't worked probably since I received it.created: Fri Dec 09 16:17:03---------------------------
-@jensen_lucas: @jk_rowling thank you for all your encouraging tweets in this dark time for the US. You inspire hope in us all.  #joindumbledoresarmycreated: Wed Nov 09 15:54:12---------------------------
-@jensen_lucas: @thesaloonmn what's the cover tonight?created: Sun Oct 30 02:15:13---------------------------
-@jensen_lucas: @TMobileHelp @JohnLegere thank you. I will Send a DM.created: Wed Oct 05 15:31:26---------------------------
-@jensen_lucas: @JohnLegere ordered the iphone7 on preorder day, but no updates. Others have received their phones after ordering later😭 #TMOpreorderskipcreated: Wed Oct 05 15:23:30---------------------------
-@jensen_lucas: @jk_rowling Happy Hogwarts Day!! Thank you for making such a beautiful world that is always there for us!created: Thu Sep 01 13:13:36---------------------------
-@jensen_lucas: @jk_rowling Happy Belated Birthday! I was so busy reading I forgot! So happy with the script! I wish Albus and Scorpius ending up together 👬created: Mon Aug 01 16:43:42---------------------------
-@jensen_lucas: @Eurovision what time will the whole final be uploaded to your website. We are having a viewing party in America, but can't watch live.created: Wed Apr 27 16:51:21---------------------------
-@jensen_lucas: @eurovisionpress we are having a viewing party in America. What time is the entire show uploaded to the Eurovision website. Thanks!!created: Wed Apr 27 13:03:00---------------------------
-@jensen_lucas: @myvessyl general estimate for the opt ins delivery? Should I expect it in 2016? Honestly disappointed about the whole vessyl experience.created: Fri Jan 22 18:28:24---------------------------
-@jensen_lucas: @AppleMusicHelp Hi, I just tried to redeem something off the App Store and it somehow took me off family sharing?created: Wed Nov 04 18:17:33---------------------------
-@jensen_lucas: @TheSims due to the later release date, is a new life state possibly back on? It would be incredible if true!created: Wed Oct 07 18:34:14---------------------------
-@jensen_lucas: RT @lesf42: Just releasing @ScrivenerApp for iOS is all we want! 😀@jensen_lucascreated: Tue Sep 22 18:51:34---------------------------
-@jensen_lucas: @ScrivenerApp great! It would awesome to use for national novel writing month!created: Tue Sep 15 18:29:10---------------------------
-@jensen_lucas: @ScrivenerApp hello, is there any talk of having this app developed for iPad pro?created: Tue Sep 15 18:10:00---------------------------
-@jensen_lucas: @SimGuruRachel @TheSims is there really no new life states for the new EP?created: Fri Aug 07 17:11:48---------------------------
-@jensen_lucas: @myvessyl Its almost August now. Are we going to get a hint or something suggesting deliveries? I'm starting feel like this is a scam...created: Wed Jul 29 21:24:03---------------------------
+Movie Title: Harry Potter and the Deathly Hallows: Part 2
+Release Date: 2011
+imdbRating: 8.1
+Rotten Tomatoes Rating: 96%
+Country where movie was filmed: USA, UK
+Language: English
+Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.
+Actors: Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe
+----------------------------------------------------------
+Movie Title: Mr. Nobody
+Release Date: 2009
+imdbRating: 7.9
+Rotten Tomatoes Rating: 66%
+Country where movie was filmed: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+----------------------------------------------------------
