@@ -9,6 +9,8 @@ var client = new twitter(keys.twitter);
 
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
+var song = (process.argv[3]);
+
 
 var request = require('request');
 
@@ -16,18 +18,6 @@ var request = require('request');
 
 var liriCommanLine = (process.argv[2]);
 
-
-// multiple word intakes
-
-// var blankWord = "";
-
-// for (var i = 3; i < song; i++) {
-//   if (i > 3 && i < song.length) {
-//     blankWord = blankWord + "+" + song[i];
-//   } else {
-//     blankWord += song[i];
-//   }
-// }
 
 
 
@@ -58,11 +48,11 @@ function displayTweets () {
 };
 
 
-function searchSpotify() {
+function searchSpotify(song1) {
 
   // var song = (process.argv[3] + " " + process.argv[4]);
 
-  var song = (process.argv[3]);
+  
 
 
   // var song = process.argv;
@@ -70,7 +60,7 @@ function searchSpotify() {
   // console.log(song)
   
 
-  spotify.search({ type: 'track', query: song }, function(err, data) {
+  spotify.search({ type: 'track', query: song1 }, function(err, data) {
     if (err) {
       return console.log('Error occurred: ' + err);
     } else {
@@ -187,7 +177,7 @@ function doWhatItSays () {
       
       var searchWord = data.split(',')
 
-      console.log(searchWord[1])
+      console.log(searchWord)
 
       searchSpotify(searchWord[1])
 
@@ -209,7 +199,7 @@ switch(liriCommanLine) {
     displayTweets();
   break;
   case"spotify-this-song":
-    searchSpotify();
+    searchSpotify(song);
   break;
   case"movie-this":
     showMovie();
@@ -218,9 +208,9 @@ switch(liriCommanLine) {
     doWhatItSays();
   break
 
-  default:
-    console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
-    break;
+  // default:
+  //   console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
+  //   break;
 };
 
 
