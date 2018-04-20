@@ -13,6 +13,23 @@ var song = (process.argv[3]);
 
 var request = require('request');
 
+// var array = [];
+// for (i = 2; i < process.argv.length; i++) {
+
+//   var stringifyResults = JSON.stringify(process.argv[i]);
+//   console.log(stringifyResults)
+//   var str = array.join(' ')
+//   console.log(str);
+//   // array.push(stringifyResults);
+//   // console.log(array);
+
+//   // var str = array.join(' ');
+//   // console.log(str);
+
+
+//   // var song1 = (process.argv[i]);
+// }
+
 
 
 var liriCommanLine = (process.argv[2]);
@@ -41,7 +58,19 @@ function displayTweets () {
 
 function searchSpotify(song1) {
 
+  song1 = (process.argv[3])
+
+  if (song1 === undefined) {
+    song1 = "Ace of Base";
+  }
+
+  // song1 = (process.argv[3] + " " + process.argv[4])
+
+
+  // console.log(song1)
+
   spotify.search({ type: 'track', query: song1 }, function(err, data) {
+    
     if (err) {
       return console.log('Error occurred: ' + err);
     } else {
@@ -70,14 +99,25 @@ function searchSpotify(song1) {
         });
         
         };
-    }
+    } 
+
+
   });
+
 };
+
 
 
 function showMovie() {
 
+
   var movie = (process.argv[3] + " " + process.argv[4]);
+  var blankmovie1 = (process.argv[3]);
+
+  if (blankmovie1 === undefined) {
+    movie = "Mr. Nobody";
+
+  };
 
   request("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy", function(error, response, body) {
 
@@ -113,10 +153,7 @@ function showMovie() {
 
     } else if (error) {
       return console.log(error)
-    } else if (movie === null) {
-      movie = "Mr. Nobody";
-
-    };
+    } 
 
 
   });
@@ -143,7 +180,6 @@ function doWhatItSays () {
 
 
 }
-
 
 
 
