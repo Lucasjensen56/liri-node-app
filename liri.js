@@ -13,22 +13,42 @@ var song = (process.argv[3]);
 
 var request = require('request');
 
+// console.log(process.argv)
+
+var myArgs = process.argv.slice(2);
+console.log(myArgs)
+
+// var result = 0;
+// process.argv.forEach(function(element) {
+//   result = result + element;
+  
+// })
+
+// console.log(result)
+
+
 // var array = [];
-// for (i = 2; i < process.argv.length; i++) {
-
-//   var stringifyResults = JSON.stringify(process.argv[i]);
-//   console.log(stringifyResults)
-//   var str = array.join(' ')
-//   console.log(str);
-//   // array.push(stringifyResults);
-//   // console.log(array);
-
+// var string = " ";
+for (i = 2; i < process.argv.length; i++) {
+  console.log
+  
 //   // var str = array.join(' ');
 //   // console.log(str);
 
 
+//   // var stringifyResults = JSON.stringify(process.argv[i]);
+
+//   // console.log(stringifyResults)
+//   // var str = array.join(' ')
+//   // console.log(str);
+//   // // array.push(stringifyResults);
+//   // // console.log(array);
+
+//   // var str = array.join(' ');
+//   // console.log(str);
+
 //   // var song1 = (process.argv[i]);
-// }
+}
 
 
 
@@ -200,7 +220,7 @@ switch(liriCommanLine) {
   break
 
   default:
-    console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
+    // console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
     break;
 };
 
