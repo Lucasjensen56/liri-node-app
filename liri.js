@@ -36,12 +36,8 @@ function displayTweets () {
         });
         fs.appendFile('searchLog.txt', '--------------------------------------------' + '\n')
       }
-
     });
-    
-   
 };
-
 
 function searchSpotify(song1) {
 
@@ -49,11 +45,9 @@ function searchSpotify(song1) {
     if (err) {
       return console.log('Error occurred: ' + err);
     } else {
-
         var songDataAPi = data.tracks.items;
 
         for (i = 0; i < songDataAPi.length; i++) {
-
             var songData = (data.tracks.items[i]);
 
             console.log('Artist: ' + songData.artists[0].name + "\n" +
@@ -63,14 +57,12 @@ function searchSpotify(song1) {
               "----------------------");
                   
           fs.appendFile('searchLog.txt', 
-          
           'Artist: ' + songData.artists[0].name + "\n" +
           'Song: ' + songData.name + "\n" +
           'Preview Link: ' + songData.preview_url + "\n" +
           'Album: ' + songData.album.name + "\n" + 
           "--------------------------------------------------------" + "\n", 
         function(error) {
-
           if (error) {
             return console.log(error)
           } 
