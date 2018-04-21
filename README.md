@@ -6,19 +6,19 @@
 
 ## Twitter
 
-npm install twitter
+    npm install twitter
 
 ## Spotify 
 
-npm install spotify 
+    npm install spotify 
 
 ## Request
 
-npm install request
+    npm install request
 
 ## FS
 
-npm install fs
+    npm install fs
 
 # How to Use
 
