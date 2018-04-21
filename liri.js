@@ -11,48 +11,33 @@ var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var song = (process.argv[3]);
 
+
+
 var request = require('request');
 
 // console.log(process.argv)
 
-var myArgs = process.argv.slice(2);
-console.log(myArgs)
-
-// var result = 0;
-// process.argv.forEach(function(element) {
-//   result = result + element;
-  
-// })
-
-// console.log(result)
 
 
-// var array = [];
-// var string = " ";
-for (i = 2; i < process.argv.length; i++) {
-  console.log
-  
-//   // var str = array.join(' ');
-//   // console.log(str);
 
+var myArgs = process.argv.slice(3);
 
-//   // var stringifyResults = JSON.stringify(process.argv[i]);
+// console.log(myArgs)
 
-//   // console.log(stringifyResults)
-//   // var str = array.join(' ')
-//   // console.log(str);
-//   // // array.push(stringifyResults);
-//   // // console.log(array);
-
-//   // var str = array.join(' ');
-//   // console.log(str);
-
-//   // var song1 = (process.argv[i]);
+for (i = 0; i < myArgs.length; i++) {
+  // console.log(myArgs[i]);
 }
+
+var myArgsString = myArgs.join(' ');
+// console.log(myArgsString)
+
+
 
 
 
 var liriCommanLine = (process.argv[2]);
+
+// console.log(liriCommanLine)
 
 
 // function to display tweets
@@ -78,16 +63,22 @@ function displayTweets () {
 
 function searchSpotify(song1) {
 
-  song1 = (process.argv[3])
+  // song1 = (process.argv[3])
 
-  if (song1 === undefined) {
+  // song1 = myArgsString;
+
+  if (process.argv[2] !== "do-what-it-says") {
+    song1 = myArgsString;
+
+  }
+
+  if (process.argv[3] === undefined && process.argv[2] !== "do-what-it-says") {
     song1 = "Ace of Base";
   }
 
-  // song1 = (process.argv[3] + " " + process.argv[4])
 
 
-  // console.log(song1)
+
 
   spotify.search({ type: 'track', query: song1 }, function(err, data) {
     
@@ -130,8 +121,7 @@ function searchSpotify(song1) {
 
 function showMovie() {
 
-
-  var movie = (process.argv[3] + " " + process.argv[4]);
+  var movie = myArgsString;
   var blankmovie1 = (process.argv[3]);
 
   if (blankmovie1 === undefined) {
@@ -186,12 +176,26 @@ function doWhatItSays () {
     if (err) {
       return console.log(err);
     } else {
+
+      console.log(data)
       
       var searchWord = data.split(',')
 
+      let song2 = searchWord[1].trim();
+
       console.log(searchWord)
 
-      searchSpotify(searchWord[1])
+      console.log(song2)
+
+      // process.argv[3] = song2
+      
+
+      // console.log(process.argv[3])
+
+      // searchSpotify(searchWord[1])
+      searchSpotify(song2)
+
+
 
     }
 
@@ -220,7 +224,7 @@ switch(liriCommanLine) {
   break
 
   default:
-    // console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
+    console.log("{Incorrect command, please enter one of the following: my-tweets, spotify-this-song, movie-this, do-what-it-says}");
     break;
 };
 
