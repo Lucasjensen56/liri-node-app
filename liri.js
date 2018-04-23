@@ -3,7 +3,6 @@ var fs = require('fs');
 
 var keys = require('./keys.js');
 
-
 var twitter = require('twitter');
 var client = new twitter(keys.twitter);
 
@@ -11,33 +10,21 @@ var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 var song = (process.argv[3]);
 
-
-
 var request = require('request');
-
-// console.log(process.argv)
-
-
 
 
 var myArgs = process.argv.slice(3);
 
-// console.log(myArgs)
+
 
 for (i = 0; i < myArgs.length; i++) {
-  // console.log(myArgs[i]);
+  // console.log(myArgs[i]) -- DELETE?;
 }
 
 var myArgsString = myArgs.join(' ');
-// console.log(myArgsString)
-
-
-
 
 
 var liriCommanLine = (process.argv[2]);
-
-// console.log(liriCommanLine)
 
 
 // function to display tweets
@@ -61,23 +48,16 @@ function displayTweets () {
     });
 };
 
+// displaying spotify song information
 function searchSpotify(song1) {
-
-  // song1 = (process.argv[3])
-
-  // song1 = myArgsString;
 
   if (process.argv[2] !== "do-what-it-says") {
     song1 = myArgsString;
-
   }
 
   if (process.argv[3] === undefined && process.argv[2] !== "do-what-it-says") {
     song1 = "Ace of Base";
   }
-
-
-
 
 
   spotify.search({ type: 'track', query: song1 }, function(err, data) {
@@ -118,7 +98,7 @@ function searchSpotify(song1) {
 };
 
 
-
+//function to show movie from IMDB
 function showMovie() {
 
   var movie = myArgsString;
@@ -134,8 +114,6 @@ function showMovie() {
     // If the request is successful (i.e. if the response status code is 200)
     if (!error && response.statusCode === 200) {
       var movieData = (JSON.parse(body))
-
-      // console.log(movieData)
 
       console.log('Movie Title: ' + movieData.Title + '\n' +
                   'Release Date: ' + movieData.Year + '\n' +
@@ -177,25 +155,17 @@ function doWhatItSays () {
       return console.log(err);
     } else {
 
-      console.log(data)
+//       console.log(data)
       
       var searchWord = data.split(',')
 
       let song2 = searchWord[1].trim();
 
-      console.log(searchWord)
+//       console.log(searchWord)
 
-      console.log(song2)
+//       console.log(song2)
 
-      // process.argv[3] = song2
-      
-
-      // console.log(process.argv[3])
-
-      // searchSpotify(searchWord[1])
       searchSpotify(song2)
-
-
 
     }
 
@@ -204,8 +174,6 @@ function doWhatItSays () {
 
 
 }
-
-
 
 
 
